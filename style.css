@@ -1,1 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f1a;
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #1a1a2e;
+}
+
+header h1 {
+    color: #c084fc;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c084fc;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #c084fc;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Projects */
+.project {
+    background: #1a1a2e;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.project a {
+    color: #c084fc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a2e;
+}
